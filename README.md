@@ -73,3 +73,16 @@ $ python3 create_my_functions.py sample-functions/stack.yml
 $ sudo ./deploy_my_functions.sh --server
 ```
 
+## Citing this work
+
+If you find this code useful in your research, please consider citing:
+
+    @inproceedings{PintoEUC18,
+        title        = {Dynamic Allocation of Serverless Functions in IoT Environments},
+        author       = {D. {Pinto} and Jo{\~a}o Pedro {Dias} and Hugo {Sereno Ferreira}},
+        year         = 2018,
+        month        = oct,
+        booktitle    = {2018 IEEE 16th International Conference on Embedded and Ubiquitous Computing (EUC)},
+        pages        = {1--8},
+        doi          = {10.1109/EUC.2018.00008}
+    }
