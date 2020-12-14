@@ -1,5 +1,11 @@
 # Serverless architectural design for IoT systems
 
+[![DOI](https://zenodo.org/badge/doi/10.1109/EUC.2018.00008.svg)](http://dx.doi.org/10.1109/EUC.2018.00008)
+
+## Abstract 
+
+The IoT area has grown significantly in the last few years and is expected to reach a gigantic amount of 50 billion devices by 2020. The appearance of serverless architectures, specifically highlighting FaaS, raises the question of the suitability of using them in IoT environments. Combining IoT with a serverless architectural design can effective when trying to make use of local processing power that exists in a local network of IoT devices and creating a fog layer that leverages computational capabilities that are closer to the end-user. In this approach, which is placed between the device and the serverless function, when a device requests for the execution of a serverless function will decide based on previous metrics of execution if the serverless function should be executed locally, in the fog layer of a local network of IoT devices, or if it should be executed remotely, in one of the available cloud servers. Therefore, this approach allows dynamically allocating functions to the most suitable layer.
+
 ## Prerequisites
 1. Install Docker CE for Ubuntu [here](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 2. Install Docker CE for Raspbian [here](https://withblue.ink/2017/12/31/yes-you-can-run-docker-on-raspbian.html)
